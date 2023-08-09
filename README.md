@@ -12,10 +12,25 @@ This repository contains a Python script for automating interactions with a spec
 
 1. **Clone** this repository or **download** the script.
 
-2. Install the required Python packages:
+2. Set vertiual environment:
+```bash
+   python -m venv venv
+```
+3. Activate vertiual environment:
+```bash
+   source venv/bin/activate
+```
+
+3. Install the required Python packages:
 ```bash
    pip install selenium pyautogui
 ```
+
+4. deactive vertiual environment:
+```bash
+   deactivate
+```
+
 Download and place the Chrome WebDriver (chromedriver) executable in the same directory as the script.
 Customize the script:
 Modify initial_window_x and initial_window_y with your desired browser window position.

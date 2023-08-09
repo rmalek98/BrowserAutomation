@@ -3,7 +3,7 @@ import pyautogui
 import time
 
 # Replace with the path to your web driver executable
-driver_path = '/chromedriver'
+driver_path = '/chromedriver_mac_arm64/chromedriver'
 
 # Create a new instance of the web driver (e.g., Chrome)
 options = webdriver.ChromeOptions()
